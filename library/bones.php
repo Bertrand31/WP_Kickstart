@@ -22,11 +22,7 @@ URL: http://themble.com/bones/
 */
 
 /*********************
-WP_HEAD GOODNESS
-The default wordpress head is
-a mess. Let's clean it up by
-removing all the junk we don't
-need.
+WP_HEAD CLEANUP
 *********************/
 
 function bones_head_cleanup() {
