@@ -29,6 +29,8 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<script src="//188.165.238.30:35729/livereload.js"></script>                                                                                     
+
 		<?php wp_head(); ?>
 
 
