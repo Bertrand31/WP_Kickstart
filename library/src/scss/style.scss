@@ -15,7 +15,11 @@ Helpful articles on Sass file organization:
 http://thesassway.com/advanced/modular-css-naming-conventions
 
 ******************************************************************/
-
+/********
+ COMPASS
+********/
+@import "compass/css3";
+ 
 /*********************
 IMPORTING PARTIALS
 These files are needed at the beginning so that we establish all
