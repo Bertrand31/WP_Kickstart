@@ -5,7 +5,7 @@ URL: http://themble.com/bones/
 
 This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
-sidebars, comments, ect.
+sidebars, comments, etc.
 */
 
 // LOAD BONES CORE (if you remove this, the theme will break)
@@ -67,7 +67,7 @@ add_action( 'after_setup_theme', 'bones_ahoy' );
 /************* OEMBED SIZE OPTIONS *************/
 
 if ( ! isset( $content_width ) ) {
-	$content_width = 640;
+	$content_width = 680;
 }
 
 /************* THUMBNAIL SIZE OPTIONS *************/
@@ -240,12 +240,5 @@ function bones_fonts() {
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
-
-// Enable support for HTML5 markup.
-	add_theme_support( 'html5', array(
-		'comment-list',
-		'search-form',
-		'comment-form'
-	) );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
