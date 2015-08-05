@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		imagemin: {      
+		imagemin: {
 			options: {
 				cache: false
 			},
@@ -23,13 +23,13 @@ module.exports = function(grunt) {
 				options: {
 					optimizationLevel: 3,
 				//	pngquant: true
-	        	},
+                },
                 files: [{
                     expand: true,
                     cwd: 'src/images/',
                     src: ['**/*.{png,jpg,gif}'],
-                    dest: 'built/img/'             
-				}]      
+                    dest: 'built/img/'
+				}]
 			},
 			aggressive: {
 				options: {
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 					src: ['**/*.{png,jpg,gif}'],
 					dest: 'built/img/'
 				}]
-			}	
+			}
 		},
 		jshint: {
 			options: {
@@ -96,7 +96,7 @@ module.exports = function(grunt) {
 				options: {
 					spawn: false,
 				},
-  			},
+            },
 			images: {
 				files: ['src/images/**/*.{png,jpg,gif}'],
 				//tasks: ['clean:img','imagemin:soft'],
@@ -106,9 +106,9 @@ module.exports = function(grunt) {
 		concurrent: {
 			watch: {
 				tasks: ['compass:watch', 'watch:livereload', 'watch:scripts', 'watch:images'],
-        			options: {
-        				logConcurrentOutput: true,
-        				limit: 5
+                options: {
+                    logConcurrentOutput: true,
+                    limit: 5
 				}
 			}
 		}
