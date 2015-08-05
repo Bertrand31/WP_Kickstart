@@ -19,7 +19,7 @@ http://thesassway.com/advanced/modular-css-naming-conventions
  COMPASS
 ********/
 @import "compass/css3";
- 
+
 /*********************
 IMPORTING PARTIALS
 These files are needed at the beginning so that we establish all
@@ -28,7 +28,7 @@ the whole project.
 *********************/
 
 // normalize: http://necolas.github.io/normalize.css/
-@import "partials/normalize";
+@import "normalize";
 
 // Sass variables
 @import "partials/variables";
