@@ -1,7 +1,8 @@
-# Require any additional compass plugins here.
+# Compass plugins
 require 'normalize-scss'
+require 'susy'
+require 'sass-globbing'
 
-# Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "built/css"
 sass_dir = "src/scss"
