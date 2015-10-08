@@ -1,0 +1,11 @@
+.wrap {
+    @include container(12 center);
+    width:90%;
+    max-width:1200px;
+}
+#main {
+    @include span(8 of 12);
+}
+#sidebar1 {
+    @include span(last 4 of 12);
+}

@@ -223,6 +223,36 @@ em {
   font-style: italic;
 }
 
+@media screen and (min-width: 768px) {
+  /* line 1, ../../src/scss/layout/_768.scss */
+  .wrap {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px;
+  }
+  /* line 12, ../../../../../../../../../../var/lib/gems/2.1.0/gems/susy-2.2.6/sass/susy/output/support/_clearfix.scss */
+  .wrap:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  /* line 6, ../../src/scss/layout/_768.scss */
+  #main {
+    width: 66.10169%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  /* line 9, ../../src/scss/layout/_768.scss */
+  #sidebar1 {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+}
 @media print {
   /* line 1, ../../src/scss/_print.scss */
   * {
