@@ -1,5 +1,3 @@
-'use strict';
-
 /*
  * Get Viewport Dimensions
  * returns object with viewport dimensions to match css in width and height properties
@@ -67,6 +65,8 @@ var timeToWaitForLast = 100;
 */
 
 jQuery(document).ready(function($) {
+
+    'use strict';
 
 
 

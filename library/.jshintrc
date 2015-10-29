@@ -1,0 +1,8 @@
+{
+    "browser"       : true,
+    "jquery"        : true,
+    "devel"         : true,
+    "globals" : {
+        "console" : false
+    }
+}

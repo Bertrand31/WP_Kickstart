@@ -6,7 +6,8 @@
 var gulp   = require('gulp'),
     plumber = require('gulp-plumber'),
     newer = require('gulp-newer'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
+    size = require('gulp-filesize');
 
 // CSS
 var compass = require('gulp-compass');
@@ -46,7 +47,8 @@ gulp.task('jscrush', function () {
         .pipe(jshint.reporter('jshint-stylish'))
         .pipe(concat('scripts.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest(chemins.jsDest));
+        .pipe(gulp.dest(chemins.jsDest))
+        .pipe(size());
 });
 
 gulp.task('compass', function () {
@@ -62,7 +64,8 @@ gulp.task('compass', function () {
             sass: 'src/scss',
             css: chemins.cssDest
         }))
-        .pipe(gulp.dest(chemins.cssDest))
+//        .pipe(gulp.dest(chemins.cssDest))
+        .pipe(size())
         .pipe(livereload());
 });
 
