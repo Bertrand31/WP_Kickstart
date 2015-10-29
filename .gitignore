@@ -8,29 +8,7 @@ Bones.esproj/
 ## IDEs
 ############
 
-*.pydevproject
-.project
-.metadata
 *.swp
-*~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
-.externalToolBuilders/
-*.launch
-.cproject
-.buildpath
-nbproject/
-
-############
-## OSes
-############
-
-[Tt]humbs.db
-[Dd]esktop.ini
-*.DS_store
-.DS_store?
 
 ############
 ## Misc
@@ -38,7 +16,6 @@ nbproject/
 
 #Grunt + Grunt output
 library/node_modules/
-library/src/javascripts/concat/
 library/built/
 
 #SASS Cache
