@@ -1,10 +1,5 @@
 // Compass
-@import 'compass/css3';
-@import 'compass/reset';
-@import 'compass/utilities/sprites';
-// Variables de support des navigateurs - Compass
-$graceful-usage-threshold:1;
-$critical-usage-threshold:.5;
+@import 'includes/bourbon/bourbon';
 
 // Base
 @import 'variables';
@@ -12,14 +7,14 @@ $critical-usage-threshold:.5;
 @import 'typography';
 
 // Éléments spécifiques
-@import 'regions/*';
-@import 'blocks/*';
-@import 'pages/*';
-@import 'nodes/*';
-@import 'forms/*';
+@import 'regions/regions.sidebar';
+@import 'blocks/blocks.default';
+@import 'pages/pages.front';
+@import 'nodes/nodes.default';
+@import 'forms/forms.default';
 
 // Disposition
-@import 'susy';
+@import 'includes/neat/neat';
 @import 'layout/base';
 @media screen and (min-width:481px) { @import 'layout/481'; }
 @media screen and (min-width:768px) { @import 'layout/768'; }

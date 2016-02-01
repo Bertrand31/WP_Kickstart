@@ -30,7 +30,7 @@
         border:1px solid #ccc;
         padding:.5em;
         text-align:center;
-        @include box-sizing(border-box);
+        box-sizing:border-box;
         max-width:100%;
         img {
             width:100%;
