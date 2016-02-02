@@ -29,7 +29,7 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
-	    <?php if (gethostname() == "dev") { echo '<script src="//80.236.14.128:35729/livereload.js"></script>'; } ?>
+	    <?php if (gethostname() == "dev") { echo '<script src="//dev:35729/livereload.js"></script>'; } ?>
 
 		<?php wp_head(); ?>
 
