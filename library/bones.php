@@ -121,7 +121,7 @@ function bones_scripts_and_styles() {
     if (!is_admin()) {
 
         // register main stylesheet
-        wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/built/css/style.css', array(), '', 'all' );
+        wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/built/scss/style.css', array(), '', 'all' );
 
         // comment reply script for threaded comments
         if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
